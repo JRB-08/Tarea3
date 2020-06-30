@@ -15,9 +15,9 @@ Obsevando ambas figuras, se determina que la cuvra de mejor ajuste es una distri
 
 Los parámetros mu y sigma para la fX son  9.90484381 y 3.29944286 respectivamente, mientras que para fY son 15.0794609 y 6.02693775..
 
-PMFX = (1/(sqrt(2*pi*3.29944286^2)) * exp(-(X - 9.90484381)^2/(2*3.29944286^2)))
+PMFX = (1/(sqrt(2 * pi * 3.29944286^2)) * exp(-(X - 9.90484381)^2/(2 * 3.29944286^2)))
 
-PMFY = (1/(sqrt(2*pi*6.02693775^2)) * exp(-(Y - 15.0794609)^2/(2*6.02693775^2)))
+PMFY = (1/(sqrt(2 * pi * 6.02693775^2)) * exp(-(Y - 15.0794609)^2/(2 * 6.02693775^2)))
 
 
 
@@ -26,7 +26,7 @@ PMFY = (1/(sqrt(2*pi*6.02693775^2)) * exp(-(Y - 15.0794609)^2/(2*6.02693775^2)))
 
 Dado que se asume independecia entre X y Y, la función de densidad conjunta es la multiplicación de las funciones de densidad marginales.
 
-PMF = (1/(sqrt(2*pi*3.29944286^2)) * exp(-(X - 9.90484381)^2/(2*3.29944286^2))) * (1/(sqrt(2*pi*6.02693775^2)) * exp(-(Y - 15.0794609)^2/(2*6.02693775^2)))
+PMF = (1/(sqrt(2 * pi * 3.29944286^2)) * exp(-(X - 9.90484381)^2/(2 * 3.29944286^2))) * (1/(sqrt(2 * pi * 6.02693775^2)) * exp(-(Y - 15.0794609)^2/(2 * 6.02693775^2)))
 
 # Pregunta 3
 A partir de los datos suministraods en el documento xyp.csv se obtuvieron los siguientes datos
