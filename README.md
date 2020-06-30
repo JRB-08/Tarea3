@@ -1,4 +1,8 @@
 # Tarea3
+Jesús Rojas Barrantes
+B46040
+Grupo 01
+
 # Pregunta 1.
 
 Para determinar la curva de mejor ajuste para cada funcion de densidad marginal, fue necesario obtener de los datos las siguientes gráficas.
